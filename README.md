@@ -29,7 +29,9 @@
 
 4.2. git url연동: git remote add origin https://github.com/career-karma-tutorials/ck-git
 
-4.3. git 소스를 먼저 가져옴: git pull origin master
+4.3. git 소스를 먼저 가져옴: git pull origin master (master는 깃에서 이름 제대로 확인하고 입력할 것)
+
+
      
 4.4. 모든 폴더/파일을 Staging 추가:  git add . 
 
