@@ -39,7 +39,7 @@
 
 4.5. 커밋:  git commit -m '커밋 메시지' 
 
-4.6. 레퍼지터리(원격저장소) 연결:  git remote add origin 원격저장소URL 
+4.6. 레퍼지터리(원격저장소) 연결:  git remote add origin 원격저장소URL (4.2에서 했으므로 패스)
 - 4.6.1. 원격저장소 URL 항목에 아까 github에서 복사해둔 https://github.com/계정/레퍼지터리.git 을 입력하면 된다.
 - 4.6.2. 기본 명령어 형식은 git remote add 원격저장소별칭 원격저장소URL이며, 별칭은 보통 origin을 많이 쓴다.
 - 4.6.3. git remote -v 명령어를 입력하면, 원격저장소에 잘 연결되어있는지 확인이 가능하다.
