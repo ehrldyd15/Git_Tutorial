@@ -31,7 +31,9 @@
 
 4.3. git 소스를 먼저 가져옴: git pull origin master (master는 깃에서 이름 제대로 확인하고 입력할 것)
 
+![스크린샷 2022-05-10 오후 3 03 46](https://user-images.githubusercontent.com/46097621/167559475-27665717-71ad-498b-abf7-86c6819c7eb5.png)
 
+![스크린샷 2022-05-10 오후 3 03 52](https://user-images.githubusercontent.com/46097621/167559491-c9ffe937-71c2-48ae-aab6-656835b2b392.png)
      
 4.4. 모든 폴더/파일을 Staging 추가:  git add . 
 
