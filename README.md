@@ -27,17 +27,21 @@
 ## _4. 깃 명령어 입력_
 4.1. git 초기화:  git init 
 
-4.2. 모든 폴더/파일을 Staging 추가:  git add . 
+4.2. git url연동: git remote add origin https://github.com/career-karma-tutorials/ck-git
 
-4.3. 커밋:  git commit -m '커밋 메시지' 
+4.3. git 소스를 먼저 가져옴: git pull origin master
+     
+4.4. 모든 폴더/파일을 Staging 추가:  git add . 
 
-4.4. 레퍼지터리(원격저장소) 연결:  git remote add origin 원격저장소URL 
-- 4.4.1. 원격저장소 URL 항목에 아까 github에서 복사해둔 https://github.com/계정/레퍼지터리.git 을 입력하면 된다.
-- 4.4.2. 기본 명령어 형식은 git remote add 원격저장소별칭 원격저장소URL이며, 별칭은 보통 origin을 많이 쓴다.
-- 4.4.3. git remote -v 명령어를 입력하면, 원격저장소에 잘 연결되어있는지 확인이 가능하다.
+4.5. 커밋:  git commit -m '커밋 메시지' 
 
-4.5.Git Hub에 최초 푸시(업로드):  git push -u origin master
-- 4.5.1. 명령어 형식은 git push -u 원격저장소별칭 브랜치명 이며, 브랜치명은 주로 master나 main을 많이 쓴다.
+4.6. 레퍼지터리(원격저장소) 연결:  git remote add origin 원격저장소URL 
+- 4.6.1. 원격저장소 URL 항목에 아까 github에서 복사해둔 https://github.com/계정/레퍼지터리.git 을 입력하면 된다.
+- 4.6.2. 기본 명령어 형식은 git remote add 원격저장소별칭 원격저장소URL이며, 별칭은 보통 origin을 많이 쓴다.
+- 4.6.3. git remote -v 명령어를 입력하면, 원격저장소에 잘 연결되어있는지 확인이 가능하다.
+
+4.7.Git Hub에 최초 푸시(업로드):  git push -u origin master
+- 4.7.1. 명령어 형식은 git push -u 원격저장소별칭 브랜치명 이며, 브랜치명은 주로 master나 main을 많이 쓴다.
 
 위 작업 과정 중에 비밀번호 혹은 PAT(Personal Access Token)를 입력라는 메시지가 나올 수 있다.
 ID와 PW는 각각 Git Hub의 아이디와 비밀번호를 입력하면 된다.
