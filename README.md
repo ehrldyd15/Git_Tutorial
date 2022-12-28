@@ -72,3 +72,13 @@ git의 추적에서 제외할 폴더나 파일이 있는 경우,
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
    [gitToken]: <https://curryyou.tistory.com/344>
+
+## _6. 기타 명령어_
+
+깃 이름 확인: git config user.name
+
+깃 이메일 확인: git config user.email
+
+깃 이름 변경: git config --global user.name ABCDF
+
+깃 이메일 변경: git config --global user.email ABC@gmail.com
