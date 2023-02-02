@@ -82,3 +82,18 @@ git의 추적에서 제외할 폴더나 파일이 있는 경우,
 깃 이름 변경: git config --global user.name ABCDF
 
 깃 이메일 변경: git config --global user.email ABC@gmail.com
+
+# GitIgnore
+
+## 1. 디렉토리에서 .gitignore 파일 보이게 하기
+
+cd경로 이동 -> sudo touch .gitignore 명령어 실행
+
+그런데 여기서 아래의 흐릿한 두 파일이 안보이는 경우도 있을 것이다. 
+
+macOS에서는 자동으로 .으로 시작하는 파일들이 숨김 처리되어있다.
+
+따라서 이 파일들도 보이게 설정해줘야 확인이 가능한데,
+
+이 때는 해당 디렉토리에서 shift+command+. 키를 눌러주면 바로 해결 가능하다.
+
