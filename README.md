@@ -97,3 +97,15 @@ macOS에서는 자동으로 .으로 시작하는 파일들이 숨김 처리되�
 
 이 때는 해당 디렉토리에서 shift + command + . 키를 눌러주면 바로 해결 가능하다.
 
+# 깃 푸시 중 postBuffer 사이즈 에러
+
+fatal: The remote end hung up unexpectedly
+Everything up-to-date
+
+위에러 발생시
+git config 커맨드로 http.postBuffer 사이즈를 늘려주면 간단하게 해결
+
+아래 명령어로 해결
+git config http.postBuffer 104857600
+
+
