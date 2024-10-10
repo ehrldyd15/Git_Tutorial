@@ -105,7 +105,7 @@ Everything up-to-date
 위에러 발생시
 git config 커맨드로 http.postBuffer 사이즈를 늘려주면 간단하게 해결
 
-아래 명령어로 해결
+명령어로 해결
 git config http.postBuffer 104857600
 
 
