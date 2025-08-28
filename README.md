@@ -106,6 +106,7 @@ Everything up-to-date
 git config 커맨드로 http.postBuffer 사이즈를 늘려주면 간단하게 해결
 
 명령어로 해결
+우선 터미널로 해당경로로 이동해서
 git config http.postBuffer 104857600
 
 
